@@ -1,0 +1,265 @@
+[
+    {
+        "name" : "Old Songs", 
+        "songs" : 
+        [
+            {
+                "title": "Hey Jude",
+                "artist": "The Beatles",
+                "year": 1968,
+                "youTubeId": "A_MjCqQoLLA"
+            },
+            {
+                "title": "(I Can't Get No) Satisfaction",
+                "artist": "The Rolling Stones",
+                "year": 1965,
+                "youTubeId": "MSSxnv1_J2g"
+            },
+            {
+                "title": "Respect",
+                "artist": "Aretha Franklin",
+                "year": 1967,
+                "youTubeId": "9iayJ8u4Qew"
+            },
+            {
+                "title": "Bohemian Rhapsody",
+                "artist": "Queen",
+                "year": 1975,
+                "youTubeId": "fJ9rUzIMcZQ"
+            },
+            {
+                "title": "Dancing Queen",
+                "artist": "ABBA",
+                "year": 1976,
+                "youTubeId": "xFrGuyw1V8s"
+            },
+            {
+                "title": "Stayin' Alive",
+                "artist": "Bee Gees",
+                "year": 1977,
+                "youTubeId": "fNFzfwLM72c"
+            },
+            {
+                "title": "Billie Jean",
+                "artist": "Michael Jackson",
+                "year": 1983,
+                "youTubeId": "Zi_XLOBDo_Y"
+            },
+            {
+                "title": "I Wanna Dance with Somebody",
+                "artist": "Whitney Houston",
+                "year": 1987,
+                "youTubeId": "eH3giaIzONA"
+            },
+            {
+                "title": "Like a Prayer",
+                "artist": "Madonna",
+                "year": 1989,
+                "youTubeId": "79fzeNUqQbQ"
+            },
+            {
+                "title": "Smells Like Teen Spirit",
+                "artist": "Nirvana",
+                "year": 1991,
+                "youTubeId": "hTWKbfoikeg"
+            },
+            {
+                "title": "Wannabe",
+                "artist": "Spice Girls",
+                "year": 1996,
+                "youTubeId": "gJLIiF15wjQ"
+            },
+            {
+                "title": "I Want It That Way",
+                "artist": "Backstreet Boys",
+                "year": 1999,
+                "youTubeId": "4fndeDfaWCg"
+            },
+            {
+                "title": "Hey Ya!",
+                "artist": "OutKast",
+                "year": 2003,
+                "youTubeId": "PWgvGjAhvIw"
+            },
+            {
+                "title": "Mr. Brightside",
+                "artist": "The Killers",
+                "year": 2004,
+                "youTubeId": "gGdGFtwCNBE"
+            },
+            {
+                "title": "Umbrella",
+                "artist": "Rihanna feat. Jay-Z",
+                "year": 2007,
+                "youTubeId": "CvBfHwUxHIk"
+            },
+            {
+                "title": "Rolling in the Deep",
+                "artist": "Adele",
+                "year": 2010,
+                "youTubeId": "rYEDA3JcQqw"
+            },
+            {
+                "title": "Uptown Funk",
+                "artist": "Mark Ronson feat. Bruno Mars",
+                "year": 2014,
+                "youTubeId": "OPf0YbXqDm0"
+            },
+            {
+                "title": "Despacito (Remix)",
+                "artist": "Luis Fonsi & Daddy Yankee feat. Justin Bieber",
+                "year": 2017,
+                "youTubeId": "wJvppSr8BN4"
+            },
+            {
+                "title": "Blinding Lights",
+                "artist": "The Weeknd",
+                "year": 2020,
+                "youTubeId": "4NRXx6U8ABQ"
+            },
+            {
+                "title": "drivers license",
+                "artist": "Olivia Rodrigo",
+                "year": 2021,
+                "youTubeId": "ZmDBbnmKpqQ"
+            }
+
+        ]
+    }, 
+    {
+        "name" : "Favorite Songs", 
+        "songs" : 
+        [
+            [
+                {
+                    "title": "XO TOUR Llif3",
+                    "artist": "Lil Uzi Vert",
+                    "year": 2017,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Shot Callin",
+                    "artist": "YoungBoy Never Broke Again",
+                    "year": 2012,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Resume",
+                    "artist": "Lil Tjay",
+                    "year": 2019,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Brothers",
+                    "artist": "Lil Tjay",
+                    "year": 2018,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Did It Again",
+                    "artist": "Lil Tecca",
+                    "year": 2019,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "DUI",
+                    "artist": "Lil Tecca",
+                    "year": 2019,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "SKRILLA",
+                    "artist": "Kodak Black",
+                    "year": 2014,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Nevada",
+                    "artist": "YoungBoy Never Broke Again",
+                    "year": 2021,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Long Gone",
+                    "artist": "Juice WRLD",
+                    "year": 2018,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Long Time - Intro",
+                    "artist": "Playboi Carti",
+                    "year": 2018,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "LOSER",
+                    "artist": "BIGBANG",
+                    "year": 2015,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Untouchable",
+                    "artist": "YoungBoy Never Broke Again",
+                    "year": 2017,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Addicted",
+                    "artist": "Zerb, The Chainsmokers & Ink",
+                    "year": 2024,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Roses",
+                    "artist": "The Chainsmokers feat. ROZES",
+                    "year": 2015,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Helium",
+                    "artist": "Sia",
+                    "year": 2017,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Drugs From Amsterdam",
+                    "artist": "Mau P",
+                    "year": 2022,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "5500 Degrees",
+                    "artist": "EST Gee feat. Lil Baby, 42 Dugg & Rylo Rodriguez",
+                    "year": 2021,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "No Negotiations",
+                    "artist": "Sheff G",
+                    "year": 2020,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "Lavender Town",
+                    "artist": "Riovaz",
+                    "year": 2024,
+                    "youTubeId": ""
+                },
+                {
+                    "title": "you're a parasite",
+                    "artist": "Riovaz",
+                    "year": 2022,
+                    "youTubeId": ""
+                }
+            ]
+
+        ]
+    },
+    {
+        "name" : "Unusual Songs", 
+        "songs" : 
+        [
+            
+        ]
+    }
+]
