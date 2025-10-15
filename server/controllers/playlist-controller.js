@@ -136,6 +136,14 @@ deletePlaylist = async (req, res) =>
     }).catch(err => console.log(err))
 }
 
+getPlaylistsStartWith = async (req, res) =>{
+    const prefix = req.params.prefix
+    
+}
+
+getSongsWith = async (req, res) => {
+    
+}
 
 
 module.exports = {
@@ -145,4 +153,6 @@ module.exports = {
     readPlaylistById,
     updatePlaylist,
     deletePlaylist,
+    getPlaylistsStartWith,
+    getSongsWith
 }

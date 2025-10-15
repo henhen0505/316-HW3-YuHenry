@@ -130,7 +130,6 @@
         "name" : "Favorite Songs", 
         "songs" : 
         [
-            [
                 {
                     "title": "XO TOUR Llif3",
                     "artist": "Lil Uzi Vert",
@@ -251,14 +250,12 @@
                     "year": 2022,
                     "youTubeId": "1YDLFUXCRUo"
                 }
-            ]
-
         ]
     },
     {
         "name" : "Unusual Songs", 
         "songs" : 
-        [
+        [   
             {
                 "title": "kidsgonemad!",
                 "artist": "ISOxo",
@@ -335,7 +332,7 @@
                 "title": "you’re a parasite",
                 "artist": "Riovaz",
                 "year": 2022,
-                "youTubeId": ""
+                "youTubeId": "1YDLFUXCRUo"
             },
             {
                 "title": "Resume",
