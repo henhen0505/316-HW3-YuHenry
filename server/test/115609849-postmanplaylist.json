@@ -1,0 +1,587 @@
+{
+	"info": {
+		"_postman_id": "a28f4916-d547-4380-ae4e-9b41e4afdd25",
+		"name": "Playlister",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49242763",
+		"_collection_link": "https://henhen0505-847607.postman.co/workspace/Henry's-Workspace~7d2e0fdd-3ba3-44c0-89e8-dff087d55a5d/collection/49242763-a28f4916-d547-4380-ae4e-9b41e4afdd25?action=share&source=collection_link&creator=49242763"
+	},
+	"item": [
+		{
+			"name": "Create Playlist",
+			"item": [
+				{
+					"name": "Create Spacey",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Spacey\",\r\n    \"songs\": [\r\n        {\r\n            \"title\": \"Across the Universe\",\r\n            \"artist\": \"The Beatles\",\r\n            \"year\": 1969,\r\n            \"youTubeId\": \"90M60PzmxEE\"\r\n        },\r\n        {\r\n            \"title\": \"Astronomy Domine\",\r\n            \"artist\": \"Pink Floyd\",\r\n            \"year\": 1967,\r\n            \"youTubeId\": \"8UbNbor3OqQ\"\r\n        },\r\n        {\r\n            \"title\": \"Black Hole Sun\",\r\n            \"artist\": \"Soundgarden\",\r\n            \"year\": 1994,\r\n            \"youTubeId\": \"3mbBbFH9fAg\"\r\n        },\r\n        {\r\n            \"title\": \"Brain Damage/Eclipse\",\r\n            \"artist\": \"Pink Floyd\",\r\n            \"year\": 1973,\r\n            \"youTubeId\": \"g1OOQP1-wOE\"\r\n        },\r\n        {\r\n            \"title\": \"Fly Me to the Moon\",\r\n            \"artist\": \"Frank Sinatra\",\r\n            \"year\": 1964,\r\n            \"youTubeId\": \"ZEcqHA7dbwM\"\r\n        },\r\n        {\r\n            \"title\": \"In the Meantime\",\r\n            \"artist\": \"Spacehog\",\r\n            \"year\": 1994,\r\n            \"youTubeId\": \"PCsGRCf8T9Y\"\r\n        },\r\n        {\r\n            \"title\": \"Major Tom\",\r\n            \"artist\": \"Peter Shilling\",\r\n            \"year\": 1982,\r\n            \"youTubeId\": \"wO0A0XcWy88\"\r\n        },\r\n        {\r\n            \"title\": \"Man on the Moon\",\r\n            \"artist\": \"REM\",\r\n            \"year\": 1992,\r\n            \"youTubeId\": \"dLxpNiF0YKs\"\r\n        },\r\n        {\r\n            \"title\": \"Rocket Man\",\r\n            \"artist\": \"Elton John\",\r\n            \"year\": 1972,\r\n            \"youTubeId\": \"DtVBCG6ThDk\"\r\n        },\r\n        {\r\n            \"title\": \"Set the Controls for the Heart of the Sun\",\r\n            \"artist\": \"Pink Floyd\",\r\n            \"year\": 1968,\r\n            \"youTubeId\": \"qupVCTn5Dko\"\r\n        },\r\n        {\r\n            \"title\": \"Space Oddity\",\r\n            \"artist\": \"David Bowie\",\r\n            \"year\": 1969,\r\n            \"youTubeId\": \"iYYRH4apXDo\"\r\n        },\r\n        {\r\n            \"title\": \"Space Song\",\r\n            \"artist\": \"Beach House\",\r\n            \"year\": 2015,\r\n            \"youTubeId\": \"RBtlPT23PTM\"\r\n        },\r\n        {\r\n            \"title\": \"Starless\",\r\n            \"artist\": \"King Crimson\",\r\n            \"year\": 1974,\r\n            \"youTubeId\": \"OfR6_V91fG8\"\r\n        },\r\n        {\r\n            \"title\": \"Starman\",\r\n            \"artist\": \"David Bowie\",\r\n            \"year\": 1972,\r\n            \"youTubeId\": \"t365MuktYQs\"\r\n        },\r\n        {\r\n            \"title\": \"Starship Trooper\",\r\n            \"artist\": \"Yes\",\r\n            \"year\": 1971,\r\n            \"youTubeId\": \"xk4U8BembHM\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Any Colour You Like",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Any Colour You Like\",\r\n    \"songs\": [\r\n        {\r\n            \"title\": \"99 Red Balloons\",\r\n            \"artist\": \"Nena\",\r\n            \"year\": 1984,\r\n            \"youTubeId\": \"Fpu5a0Bl8eY\"\r\n        },\r\n        {\r\n            \"title\": \"Big Blue Sun\",\r\n            \"artist\": \"Adrian Belew\",\r\n            \"year\": 1986,\r\n            \"youTubeId\": \"DMkEmW2awQw\"\r\n        },\r\n        {\r\n            \"title\": \"Black Dog\",\r\n            \"artist\": \"Led Zeppelin\",\r\n            \"year\": 1971,\r\n            \"youTubeId\": \"2KPEHohJMuw\"\r\n        },\r\n        {\r\n            \"title\": \"Golden Brown\",\r\n            \"artist\": \"The Stranglers\",\r\n            \"year\": 1981,\r\n            \"youTubeId\": \"7KIHvuMl4Kk\"\r\n        },\r\n        {\r\n            \"title\": \"Goodbye Yellow Brick Road\",\r\n            \"artist\": \"Elton John\",\r\n            \"year\": 1973,\r\n            \"youTubeId\": \"wy709iNG6i8\"\r\n        },\r\n        {\r\n            \"title\": \"Green is the Colour\",\r\n            \"artist\": \"Pink Floyd\",\r\n            \"year\": 1969,\r\n            \"youTubeId\": \"4XeWngFZaa8\"\r\n        },\r\n        {\r\n            \"title\": \"In the Court of the Crimson King\",\r\n            \"artist\": \"King Crimson\",\r\n            \"year\": 1969,\r\n            \"youTubeId\": \"ukgraQ-xkp4\"\r\n        },\r\n        {\r\n            \"title\": \"Orange Crush\",\r\n            \"artist\": \"REM\",\r\n            \"year\": 1988,\r\n            \"youTubeId\": \"_mSmOcmk7uQ\"\r\n        },\r\n        {\r\n            \"title\": \"Pink Houses\",\r\n            \"artist\": \"John Mellancamp\",\r\n            \"year\": 1983,\r\n            \"youTubeId\": \"qOfkpu6749w\"\r\n        },\r\n        {\r\n            \"title\": \"Purple Rain\",\r\n            \"artist\": \"Prince\",\r\n            \"year\": 1984,\r\n            \"youTubeId\": \"TvnYmWpD_T8\"\r\n        },\r\n        {\r\n            \"title\": \"White Lines\",\r\n            \"artist\": \"Grandmaster Flash and the Furious Five\",\r\n            \"year\": 1983,\r\n            \"youTubeId\": \"DwRXI-y6M9o\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Don't Be Rude",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Don't be Rude\",\r\n    \"songs\": [\r\n        {\r\n            \"title\": \"A Message to You Rudy\",\r\n            \"artist\": \"The Specials\",\r\n            \"year\": 1979,\r\n            \"youTubeId\": \"cntvEDbagAw\"\r\n        },\r\n        {\r\n            \"title\": \"Rudie Can't Fail\",\r\n            \"artist\": \"The Clash\",\r\n            \"year\": 1979,\r\n            \"youTubeId\": \"uEK9oK02D1M\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Old Songs",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\" : \"Old Songs\", \r\n        \"songs\" : \r\n        [\r\n            {\r\n                \"title\": \"Hey Jude\",\r\n                \"artist\": \"The Beatles\",\r\n                \"year\": 1968,\r\n                \"youTubeId\": \"A_MjCqQoLLA\"\r\n            },\r\n            {\r\n                \"title\": \"(I Can't Get No) Satisfaction\",\r\n                \"artist\": \"The Rolling Stones\",\r\n                \"year\": 1965,\r\n                \"youTubeId\": \"MSSxnv1_J2g\"\r\n            },\r\n            {\r\n                \"title\": \"Respect\",\r\n                \"artist\": \"Aretha Franklin\",\r\n                \"year\": 1967,\r\n                \"youTubeId\": \"9iayJ8u4Qew\"\r\n            },\r\n            {\r\n                \"title\": \"Bohemian Rhapsody\",\r\n                \"artist\": \"Queen\",\r\n                \"year\": 1975,\r\n                \"youTubeId\": \"fJ9rUzIMcZQ\"\r\n            },\r\n            {\r\n                \"title\": \"Dancing Queen\",\r\n                \"artist\": \"ABBA\",\r\n                \"year\": 1976,\r\n                \"youTubeId\": \"xFrGuyw1V8s\"\r\n            },\r\n            {\r\n                \"title\": \"Stayin' Alive\",\r\n                \"artist\": \"Bee Gees\",\r\n                \"year\": 1977,\r\n                \"youTubeId\": \"fNFzfwLM72c\"\r\n            },\r\n            {\r\n                \"title\": \"Billie Jean\",\r\n                \"artist\": \"Michael Jackson\",\r\n                \"year\": 1983,\r\n                \"youTubeId\": \"Zi_XLOBDo_Y\"\r\n            },\r\n            {\r\n                \"title\": \"I Wanna Dance with Somebody\",\r\n                \"artist\": \"Whitney Houston\",\r\n                \"year\": 1987,\r\n                \"youTubeId\": \"eH3giaIzONA\"\r\n            },\r\n            {\r\n                \"title\": \"Like a Prayer\",\r\n                \"artist\": \"Madonna\",\r\n                \"year\": 1989,\r\n                \"youTubeId\": \"79fzeNUqQbQ\"\r\n            },\r\n            {\r\n                \"title\": \"Smells Like Teen Spirit\",\r\n                \"artist\": \"Nirvana\",\r\n                \"year\": 1991,\r\n                \"youTubeId\": \"hTWKbfoikeg\"\r\n            },\r\n            {\r\n                \"title\": \"Wannabe\",\r\n                \"artist\": \"Spice Girls\",\r\n                \"year\": 1996,\r\n                \"youTubeId\": \"gJLIiF15wjQ\"\r\n            },\r\n            {\r\n                \"title\": \"I Want It That Way\",\r\n                \"artist\": \"Backstreet Boys\",\r\n                \"year\": 1999,\r\n                \"youTubeId\": \"4fndeDfaWCg\"\r\n            },\r\n            {\r\n                \"title\": \"Hey Ya!\",\r\n                \"artist\": \"OutKast\",\r\n                \"year\": 2003,\r\n                \"youTubeId\": \"PWgvGjAhvIw\"\r\n            },\r\n            {\r\n                \"title\": \"Mr. Brightside\",\r\n                \"artist\": \"The Killers\",\r\n                \"year\": 2004,\r\n                \"youTubeId\": \"gGdGFtwCNBE\"\r\n            },\r\n            {\r\n                \"title\": \"Umbrella\",\r\n                \"artist\": \"Rihanna feat. Jay-Z\",\r\n                \"year\": 2007,\r\n                \"youTubeId\": \"CvBfHwUxHIk\"\r\n            },\r\n            {\r\n                \"title\": \"Rolling in the Deep\",\r\n                \"artist\": \"Adele\",\r\n                \"year\": 2010,\r\n                \"youTubeId\": \"rYEDA3JcQqw\"\r\n            },\r\n            {\r\n                \"title\": \"Uptown Funk\",\r\n                \"artist\": \"Mark Ronson feat. Bruno Mars\",\r\n                \"year\": 2014,\r\n                \"youTubeId\": \"OPf0YbXqDm0\"\r\n            },\r\n            {\r\n                \"title\": \"Despacito (Remix)\",\r\n                \"artist\": \"Luis Fonsi & Daddy Yankee feat. Justin Bieber\",\r\n                \"year\": 2017,\r\n                \"youTubeId\": \"wJvppSr8BN4\"\r\n            },\r\n            {\r\n                \"title\": \"Blinding Lights\",\r\n                \"artist\": \"The Weeknd\",\r\n                \"year\": 2020,\r\n                \"youTubeId\": \"4NRXx6U8ABQ\"\r\n            },\r\n            {\r\n                \"title\": \"drivers license\",\r\n                \"artist\": \"Olivia Rodrigo\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"ZmDBbnmKpqQ\"\r\n            }\r\n\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Favorite Songs",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\" : \"Favorite Songs\", \r\n        \"songs\" : \r\n        [\r\n                {\r\n                    \"title\": \"XO TOUR Llif3\",\r\n                    \"artist\": \"Lil Uzi Vert\",\r\n                    \"year\": 2017,\r\n                    \"youTubeId\": \"WrsFXgQk5UI\"\r\n                },\r\n                {\r\n                    \"title\": \"Shot Callin\",\r\n                    \"artist\": \"YoungBoy Never Broke Again\",\r\n                    \"year\": 2012,\r\n                    \"youTubeId\": \"XoqyAWcedvM\"\r\n                },\r\n                {\r\n                    \"title\": \"Resume\",\r\n                    \"artist\": \"Lil Tjay\",\r\n                    \"year\": 2019,\r\n                    \"youTubeId\": \"uJQ2t2b3Maw\"\r\n                },\r\n                {\r\n                    \"title\": \"Brothers\",\r\n                    \"artist\": \"Lil Tjay\",\r\n                    \"year\": 2018,\r\n                    \"youTubeId\": \"ifZzXeNt3L4\"\r\n                },\r\n                {\r\n                    \"title\": \"Did It Again\",\r\n                    \"artist\": \"Lil Tecca\",\r\n                    \"year\": 2019,\r\n                    \"youTubeId\": \"YdrUe_IFSjs\"\r\n                },\r\n                {\r\n                    \"title\": \"DUI\",\r\n                    \"artist\": \"Lil Tecca\",\r\n                    \"year\": 2019,\r\n                    \"youTubeId\": \"wOjvc0GSenQ\"\r\n                },\r\n                {\r\n                    \"title\": \"SKRILLA\",\r\n                    \"artist\": \"Kodak Black\",\r\n                    \"year\": 2014,\r\n                    \"youTubeId\": \"SmwmZfMooSo\"\r\n                },\r\n                {\r\n                    \"title\": \"Nevada\",\r\n                    \"artist\": \"YoungBoy Never Broke Again\",\r\n                    \"year\": 2021,\r\n                    \"youTubeId\": \"JfGnwcf5Lt0\"\r\n                },\r\n                {\r\n                    \"title\": \"Long Gone\",\r\n                    \"artist\": \"Juice WRLD\",\r\n                    \"year\": 2018,\r\n                    \"youTubeId\": \"08m00joOAo4\"\r\n                },\r\n                {\r\n                    \"title\": \"Long Time - Intro\",\r\n                    \"artist\": \"Playboi Carti\",\r\n                    \"year\": 2018,\r\n                    \"youTubeId\": \"tkPoOvVnbRk\"\r\n                },\r\n                {\r\n                    \"title\": \"LOSER\",\r\n                    \"artist\": \"BIGBANG\",\r\n                    \"year\": 2015,\r\n                    \"youTubeId\": \"1CTced9CMMk\"\r\n                },\r\n                {\r\n                    \"title\": \"Untouchable\",\r\n                    \"artist\": \"YoungBoy Never Broke Again\",\r\n                    \"year\": 2017,\r\n                    \"youTubeId\": \"ipM9SkIkwCY\"\r\n                },\r\n                {\r\n                    \"title\": \"Addicted\",\r\n                    \"artist\": \"Zerb, The Chainsmokers & Ink\",\r\n                    \"year\": 2024,\r\n                    \"youTubeId\": \"ROhlsgTOsgc\"\r\n                },\r\n                {\r\n                    \"title\": \"Roses\",\r\n                    \"artist\": \"The Chainsmokers feat. ROZES\",\r\n                    \"year\": 2015,\r\n                    \"youTubeId\": \"mBZdHuZCfic\"\r\n                },\r\n                {\r\n                    \"title\": \"Helium\",\r\n                    \"artist\": \"The Chainsmokers\",\r\n                    \"year\": 2017,\r\n                    \"youTubeId\": \"GWoK3HULCLo\"\r\n                },\r\n                {\r\n                    \"title\": \"Drugs From Amsterdam\",\r\n                    \"artist\": \"Mau P\",\r\n                    \"year\": 2022,\r\n                    \"youTubeId\": \"juuIhW8V1Xw\"\r\n                },\r\n                {\r\n                    \"title\": \"5500 Degrees\",\r\n                    \"artist\": \"EST Gee feat. Lil Baby, 42 Dugg & Rylo Rodriguez\",\r\n                    \"year\": 2021,\r\n                    \"youTubeId\": \"IWm4c9u0O8c\"\r\n                },\r\n                {\r\n                    \"title\": \"No Negotiations\",\r\n                    \"artist\": \"Sheff G\",\r\n                    \"year\": 2020,\r\n                    \"youTubeId\": \"wl341DODfIs\"\r\n                },\r\n                {\r\n                    \"title\": \"Lavender Town\",\r\n                    \"artist\": \"Riovaz\",\r\n                    \"year\": 2024,\r\n                    \"youTubeId\": \"O15xnHlSaCE\"\r\n                },\r\n                {\r\n                    \"title\": \"you're a parasite\",\r\n                    \"artist\": \"Riovaz\",\r\n                    \"year\": 2022,\r\n                    \"youTubeId\": \"1YDLFUXCRUo\"\r\n                }\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Unusual Songs",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\" : \"Unusual Songs\", \r\n        \"songs\" : \r\n        [   \r\n            {\r\n                \"title\": \"kidsgonemad!\",\r\n                \"artist\": \"ISOxo\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"IkboEK0ff8M\"\r\n            },\r\n            {\r\n                \"title\": \"VOXCUTR\",\r\n                \"artist\": \"ISOxo\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"Hm6PtOwJkYs\"\r\n            },\r\n            {\r\n                \"title\": \"IGNORANT\",\r\n                \"artist\": \"ISOxo\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"ILRmS19tKDY\"\r\n            },\r\n            {\r\n                \"title\": \"THRASH (PARTY STARTER)\",\r\n                \"artist\": \"ISOKNOCK\",\r\n                \"year\": 2024,\r\n                \"youTubeId\": \"XJK9NBbDFro\"\r\n            },\r\n            {\r\n                \"title\": \"dashstar*\",\r\n                \"artist\": \"Knock2\",\r\n                \"year\": 2022,\r\n                \"youTubeId\": \"58ml5b_On6w\"\r\n            },\r\n            {\r\n                \"title\": \"PARANOiD\",\r\n                \"artist\": \"Knock2\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"kBfd9AwOekA\"\r\n            },\r\n            {\r\n                \"title\": \"Another Chance\",\r\n                \"artist\": \"Disco Lines\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"iAP7HqFHMaY\"\r\n            },\r\n            {\r\n                \"title\": \"I See Colors\",\r\n                \"artist\": \"Disco Lines & Rain Radio\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"EBg9nAz352w\"\r\n            },\r\n            {\r\n                \"title\": \"Gimme That Bounce\",\r\n                \"artist\": \"Mau P\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"Y-iVeTyn7n0\"\r\n            },\r\n            {\r\n                \"title\": \"Metro\",\r\n                \"artist\": \"Kevin de Vries & Mau P\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"Db4hVWCh4zk\"\r\n            },\r\n            {\r\n                \"title\": \"Halo\",\r\n                \"artist\": \"Sub Zero Project\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"CgnOBpRYIwQ\"\r\n            },\r\n            {\r\n                \"title\": \"Lavender Town\",\r\n                \"artist\": \"Riovaz\",\r\n                \"year\": 2024,\r\n                \"youTubeId\": \"O15xnHlSaCE\"\r\n            },\r\n            {\r\n                \"title\": \"you’re a parasite\",\r\n                \"artist\": \"Riovaz\",\r\n                \"year\": 2022,\r\n                \"youTubeId\": \"1YDLFUXCRUo\"\r\n            },\r\n            {\r\n                \"title\": \"Resume\",\r\n                \"artist\": \"Lil Tjay\",\r\n                \"year\": 2018,\r\n                \"youTubeId\": \"uJQ2t2b3Maw\"\r\n            },\r\n            {\r\n                \"title\": \"Brothers\",\r\n                \"artist\": \"Lil Tjay\",\r\n                \"year\": 2018,\r\n                \"youTubeId\": \"ifZzXeNt3L4\"\r\n            },\r\n            {\r\n                \"title\": \"Long Time\",\r\n                \"artist\": \"Lil Tjay\",\r\n                \"year\": 2018,\r\n                \"youTubeId\": \"G1xHg_6Hvpk\"\r\n            },\r\n            {\r\n                \"title\": \"Suburban\",\r\n                \"artist\": \"22Gz\",\r\n                \"year\": 2018,\r\n                \"youTubeId\": \"E5PXvCbmBYQ\"\r\n            },\r\n            {\r\n                \"title\": \"Sniper Gang Freestyle\",\r\n                \"artist\": \"22Gz\",\r\n                \"year\": 2019,\r\n                \"youTubeId\": \"8W1Wy00KVhg\"\r\n            },\r\n            {\r\n                \"title\": \"Flows (feat. Sleepy Hallow)\",\r\n                \"artist\": \"Sheff G\",\r\n                \"year\": 2019,\r\n                \"youTubeId\": \"DYTxB_-ysns\"\r\n            },\r\n            {\r\n                \"title\": \"No Suburban, Pt. 2\",\r\n                \"artist\": \"Sheff G\",\r\n                \"year\": 2020,\r\n                \"youTubeId\": \"L7pRXGRvjc0\"\r\n            },\r\n            {\r\n                \"title\": \"Being Honest\",\r\n                \"artist\": \"Kay Flock\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"cMV4-xekoaY\"\r\n            },\r\n            {\r\n                \"title\": \"PSA\",\r\n                \"artist\": \"Kay Flock\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"z9rBnWnSjLM\"\r\n            },\r\n            {\r\n                \"title\": \"IYKYK\",\r\n                \"artist\": \"B-Lovee\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"MuCYCIpW_AM\"\r\n            },\r\n            {\r\n                \"title\": \"Talk Facts\",\r\n                \"artist\": \"DThang x Bando x Tdot\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"Vn5uuR9Q0hE\"\r\n            }\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Read Playlist",
+			"item": [
+				{
+					"name": "Read Spacey (_id will be different each time it is created)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/68d9bab319024111c0004cbd",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"68d9bab319024111c0004cbd"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Any Colour You Like (_id will be different each time it is created)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/633af66f9dd4614fc06dc9e9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"633af66f9dd4614fc06dc9e9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Don't Be Rude (_id will be different each time it is created)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/68d9bb1619024111c0004cdb",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"68d9bb1619024111c0004cdb"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Old Songs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/68ee9c7ae64b6b4e407da2f2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"68ee9c7ae64b6b4e407da2f2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Favorite Songs",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\" : \"Unusual Songs\", \r\n        \"songs\" : \r\n        [   \r\n            {\r\n                \"title\": \"kidsgonemad!\",\r\n                \"artist\": \"ISOxo\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"IkboEK0ff8M\"\r\n            },\r\n            {\r\n                \"title\": \"VOXCUTR\",\r\n                \"artist\": \"ISOxo\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"Hm6PtOwJkYs\"\r\n            },\r\n            {\r\n                \"title\": \"IGNORANT\",\r\n                \"artist\": \"ISOxo\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"ILRmS19tKDY\"\r\n            },\r\n            {\r\n                \"title\": \"THRASH (PARTY STARTER)\",\r\n                \"artist\": \"ISOKNOCK\",\r\n                \"year\": 2024,\r\n                \"youTubeId\": \"XJK9NBbDFro\"\r\n            },\r\n            {\r\n                \"title\": \"dashstar*\",\r\n                \"artist\": \"Knock2\",\r\n                \"year\": 2022,\r\n                \"youTubeId\": \"58ml5b_On6w\"\r\n            },\r\n            {\r\n                \"title\": \"PARANOiD\",\r\n                \"artist\": \"Knock2\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"kBfd9AwOekA\"\r\n            },\r\n            {\r\n                \"title\": \"Another Chance\",\r\n                \"artist\": \"Disco Lines\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"iAP7HqFHMaY\"\r\n            },\r\n            {\r\n                \"title\": \"I See Colors\",\r\n                \"artist\": \"Disco Lines & Rain Radio\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"EBg9nAz352w\"\r\n            },\r\n            {\r\n                \"title\": \"Gimme That Bounce\",\r\n                \"artist\": \"Mau P\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"Y-iVeTyn7n0\"\r\n            },\r\n            {\r\n                \"title\": \"Metro\",\r\n                \"artist\": \"Kevin de Vries & Mau P\",\r\n                \"year\": 2023,\r\n                \"youTubeId\": \"Db4hVWCh4zk\"\r\n            },\r\n            {\r\n                \"title\": \"Halo\",\r\n                \"artist\": \"Sub Zero Project\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"CgnOBpRYIwQ\"\r\n            },\r\n            {\r\n                \"title\": \"Lavender Town\",\r\n                \"artist\": \"Riovaz\",\r\n                \"year\": 2024,\r\n                \"youTubeId\": \"O15xnHlSaCE\"\r\n            },\r\n            {\r\n                \"title\": \"you’re a parasite\",\r\n                \"artist\": \"Riovaz\",\r\n                \"year\": 2022,\r\n                \"youTubeId\": \"1YDLFUXCRUo\"\r\n            },\r\n            {\r\n                \"title\": \"Resume\",\r\n                \"artist\": \"Lil Tjay\",\r\n                \"year\": 2018,\r\n                \"youTubeId\": \"uJQ2t2b3Maw\"\r\n            },\r\n            {\r\n                \"title\": \"Brothers\",\r\n                \"artist\": \"Lil Tjay\",\r\n                \"year\": 2018,\r\n                \"youTubeId\": \"ifZzXeNt3L4\"\r\n            },\r\n            {\r\n                \"title\": \"Long Time\",\r\n                \"artist\": \"Lil Tjay\",\r\n                \"year\": 2018,\r\n                \"youTubeId\": \"G1xHg_6Hvpk\"\r\n            },\r\n            {\r\n                \"title\": \"Suburban\",\r\n                \"artist\": \"22Gz\",\r\n                \"year\": 2018,\r\n                \"youTubeId\": \"E5PXvCbmBYQ\"\r\n            },\r\n            {\r\n                \"title\": \"Sniper Gang Freestyle\",\r\n                \"artist\": \"22Gz\",\r\n                \"year\": 2019,\r\n                \"youTubeId\": \"8W1Wy00KVhg\"\r\n            },\r\n            {\r\n                \"title\": \"Flows (feat. Sleepy Hallow)\",\r\n                \"artist\": \"Sheff G\",\r\n                \"year\": 2019,\r\n                \"youTubeId\": \"DYTxB_-ysns\"\r\n            },\r\n            {\r\n                \"title\": \"No Suburban, Pt. 2\",\r\n                \"artist\": \"Sheff G\",\r\n                \"year\": 2020,\r\n                \"youTubeId\": \"L7pRXGRvjc0\"\r\n            },\r\n            {\r\n                \"title\": \"Being Honest\",\r\n                \"artist\": \"Kay Flock\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"cMV4-xekoaY\"\r\n            },\r\n            {\r\n                \"title\": \"PSA\",\r\n                \"artist\": \"Kay Flock\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"z9rBnWnSjLM\"\r\n            },\r\n            {\r\n                \"title\": \"IYKYK\",\r\n                \"artist\": \"B-Lovee\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"MuCYCIpW_AM\"\r\n            },\r\n            {\r\n                \"title\": \"Talk Facts\",\r\n                \"artist\": \"DThang x Bando x Tdot\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"Vn5uuR9Q0hE\"\r\n            }\r\n        ]\r\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/68eefff2b9e7c1316499ace7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"68eefff2b9e7c1316499ace7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Unusual Songs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/68ef0000b9e7c1316499acfd",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"68ef0000b9e7c1316499acfd"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Update Playlist",
+			"item": [
+				{
+					"name": "Update Favorite Songs(playlist name)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\" : \"Old Songs Changed\", \r\n        \"songs\" : \r\n        [\r\n            {\r\n                \"title\": \"Hey Jude\",\r\n                \"artist\": \"The Beatles\",\r\n                \"year\": 1968,\r\n                \"youTubeId\": \"A_MjCqQoLLA\"\r\n            },\r\n            {\r\n                \"title\": \"(I Can't Get No) Satisfaction\",\r\n                \"artist\": \"The Rolling Stones\",\r\n                \"year\": 1965,\r\n                \"youTubeId\": \"MSSxnv1_J2g\"\r\n            },\r\n            {\r\n                \"title\": \"Respect\",\r\n                \"artist\": \"Aretha Franklin\",\r\n                \"year\": 1967,\r\n                \"youTubeId\": \"9iayJ8u4Qew\"\r\n            },\r\n            {\r\n                \"title\": \"Bohemian Rhapsody\",\r\n                \"artist\": \"Queen\",\r\n                \"year\": 1975,\r\n                \"youTubeId\": \"fJ9rUzIMcZQ\"\r\n            },\r\n            {\r\n                \"title\": \"Dancing Queen\",\r\n                \"artist\": \"ABBA\",\r\n                \"year\": 1976,\r\n                \"youTubeId\": \"xFrGuyw1V8s\"\r\n            },\r\n            {\r\n                \"title\": \"Stayin' Alive\",\r\n                \"artist\": \"Bee Gees\",\r\n                \"year\": 1977,\r\n                \"youTubeId\": \"fNFzfwLM72c\"\r\n            },\r\n            {\r\n                \"title\": \"Billie Jean\",\r\n                \"artist\": \"Michael Jackson\",\r\n                \"year\": 1983,\r\n                \"youTubeId\": \"Zi_XLOBDo_Y\"\r\n            },\r\n            {\r\n                \"title\": \"I Wanna Dance with Somebody\",\r\n                \"artist\": \"Whitney Houston\",\r\n                \"year\": 1987,\r\n                \"youTubeId\": \"eH3giaIzONA\"\r\n            },\r\n            {\r\n                \"title\": \"Like a Prayer\",\r\n                \"artist\": \"Madonna\",\r\n                \"year\": 1989,\r\n                \"youTubeId\": \"79fzeNUqQbQ\"\r\n            },\r\n            {\r\n                \"title\": \"Smells Like Teen Spirit\",\r\n                \"artist\": \"Nirvana\",\r\n                \"year\": 1991,\r\n                \"youTubeId\": \"hTWKbfoikeg\"\r\n            },\r\n            {\r\n                \"title\": \"Wannabe\",\r\n                \"artist\": \"Spice Girls\",\r\n                \"year\": 1996,\r\n                \"youTubeId\": \"gJLIiF15wjQ\"\r\n            },\r\n            {\r\n                \"title\": \"I Want It That Way\",\r\n                \"artist\": \"Backstreet Boys\",\r\n                \"year\": 1999,\r\n                \"youTubeId\": \"4fndeDfaWCg\"\r\n            },\r\n            {\r\n                \"title\": \"Hey Ya!\",\r\n                \"artist\": \"OutKast\",\r\n                \"year\": 2003,\r\n                \"youTubeId\": \"PWgvGjAhvIw\"\r\n            },\r\n            {\r\n                \"title\": \"Mr. Brightside\",\r\n                \"artist\": \"The Killers\",\r\n                \"year\": 2004,\r\n                \"youTubeId\": \"gGdGFtwCNBE\"\r\n            },\r\n            {\r\n                \"title\": \"Umbrella\",\r\n                \"artist\": \"Rihanna feat. Jay-Z\",\r\n                \"year\": 2007,\r\n                \"youTubeId\": \"CvBfHwUxHIk\"\r\n            },\r\n            {\r\n                \"title\": \"Rolling in the Deep\",\r\n                \"artist\": \"Adele\",\r\n                \"year\": 2010,\r\n                \"youTubeId\": \"rYEDA3JcQqw\"\r\n            },\r\n            {\r\n                \"title\": \"Uptown Funk\",\r\n                \"artist\": \"Mark Ronson feat. Bruno Mars\",\r\n                \"year\": 2014,\r\n                \"youTubeId\": \"OPf0YbXqDm0\"\r\n            },\r\n            {\r\n                \"title\": \"Despacito (Remix)\",\r\n                \"artist\": \"Luis Fonsi & Daddy Yankee feat. Justin Bieber\",\r\n                \"year\": 2017,\r\n                \"youTubeId\": \"wJvppSr8BN4\"\r\n            },\r\n            {\r\n                \"title\": \"Blinding Lights\",\r\n                \"artist\": \"The Weeknd\",\r\n                \"year\": 2020,\r\n                \"youTubeId\": \"4NRXx6U8ABQ\"\r\n            },\r\n            {\r\n                \"title\": \"drivers license\",\r\n                \"artist\": \"Olivia Rodrigo\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"ZmDBbnmKpqQ\"\r\n            }\r\n\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/68eefff2b9e7c1316499ace7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"68eefff2b9e7c1316499ace7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Favorite Songs(add song)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\" : \"Old Songs\", \r\n        \"songs\" : \r\n        [\r\n            {\r\n                \"title\": \"Hey Jude\",\r\n                \"artist\": \"The Beatles\",\r\n                \"year\": 1968,\r\n                \"youTubeId\": \"A_MjCqQoLLA\"\r\n            },\r\n            {\r\n                \"title\": \"(I Can't Get No) Satisfaction\",\r\n                \"artist\": \"The Rolling Stones\",\r\n                \"year\": 1965,\r\n                \"youTubeId\": \"MSSxnv1_J2g\"\r\n            },\r\n            {\r\n                \"title\": \"Respect\",\r\n                \"artist\": \"Aretha Franklin\",\r\n                \"year\": 1967,\r\n                \"youTubeId\": \"9iayJ8u4Qew\"\r\n            },\r\n            {\r\n                \"title\": \"Bohemian Rhapsody\",\r\n                \"artist\": \"Queen\",\r\n                \"year\": 1975,\r\n                \"youTubeId\": \"fJ9rUzIMcZQ\"\r\n            },\r\n            {\r\n                \"title\": \"Dancing Queen\",\r\n                \"artist\": \"ABBA\",\r\n                \"year\": 1976,\r\n                \"youTubeId\": \"xFrGuyw1V8s\"\r\n            },\r\n            {\r\n                \"title\": \"Stayin' Alive\",\r\n                \"artist\": \"Bee Gees\",\r\n                \"year\": 1977,\r\n                \"youTubeId\": \"fNFzfwLM72c\"\r\n            },\r\n            {\r\n                \"title\": \"Billie Jean\",\r\n                \"artist\": \"Michael Jackson\",\r\n                \"year\": 1983,\r\n                \"youTubeId\": \"Zi_XLOBDo_Y\"\r\n            },\r\n            {\r\n                \"title\": \"I Wanna Dance with Somebody\",\r\n                \"artist\": \"Whitney Houston\",\r\n                \"year\": 1987,\r\n                \"youTubeId\": \"eH3giaIzONA\"\r\n            },\r\n            {\r\n                \"title\": \"Like a Prayer\",\r\n                \"artist\": \"Madonna\",\r\n                \"year\": 1989,\r\n                \"youTubeId\": \"79fzeNUqQbQ\"\r\n            },\r\n            {\r\n                \"title\": \"Smells Like Teen Spirit\",\r\n                \"artist\": \"Nirvana\",\r\n                \"year\": 1991,\r\n                \"youTubeId\": \"hTWKbfoikeg\"\r\n            },\r\n            {\r\n                \"title\": \"Wannabe\",\r\n                \"artist\": \"Spice Girls\",\r\n                \"year\": 1996,\r\n                \"youTubeId\": \"gJLIiF15wjQ\"\r\n            },\r\n            {\r\n                \"title\": \"I Want It That Way\",\r\n                \"artist\": \"Backstreet Boys\",\r\n                \"year\": 1999,\r\n                \"youTubeId\": \"4fndeDfaWCg\"\r\n            },\r\n            {\r\n                \"title\": \"Hey Ya!\",\r\n                \"artist\": \"OutKast\",\r\n                \"year\": 2003,\r\n                \"youTubeId\": \"PWgvGjAhvIw\"\r\n            },\r\n            {\r\n                \"title\": \"Mr. Brightside\",\r\n                \"artist\": \"The Killers\",\r\n                \"year\": 2004,\r\n                \"youTubeId\": \"gGdGFtwCNBE\"\r\n            },\r\n            {\r\n                \"title\": \"Umbrella\",\r\n                \"artist\": \"Rihanna feat. Jay-Z\",\r\n                \"year\": 2007,\r\n                \"youTubeId\": \"CvBfHwUxHIk\"\r\n            },\r\n            {\r\n                \"title\": \"Rolling in the Deep\",\r\n                \"artist\": \"Adele\",\r\n                \"year\": 2010,\r\n                \"youTubeId\": \"rYEDA3JcQqw\"\r\n            },\r\n            {\r\n                \"title\": \"Uptown Funk\",\r\n                \"artist\": \"Mark Ronson feat. Bruno Mars\",\r\n                \"year\": 2014,\r\n                \"youTubeId\": \"OPf0YbXqDm0\"\r\n            },\r\n            {\r\n                \"title\": \"Despacito (Remix)\",\r\n                \"artist\": \"Luis Fonsi & Daddy Yankee feat. Justin Bieber\",\r\n                \"year\": 2017,\r\n                \"youTubeId\": \"wJvppSr8BN4\"\r\n            },\r\n            {\r\n                \"title\": \"Blinding Lights\",\r\n                \"artist\": \"The Weeknd\",\r\n                \"year\": 2020,\r\n                \"youTubeId\": \"4NRXx6U8ABQ\"\r\n            },\r\n            {\r\n                \"title\": \"drivers license\",\r\n                \"artist\": \"Olivia Rodrigo\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"ZmDBbnmKpqQ\"\r\n            },\r\n\r\n            {\r\n            \"title\": \"Untitled\",\r\n            \"artist\": \"unknwon\",\r\n            \"year\": 2000,\r\n            \"youTubeId\": \"\"\r\n            }\r\n\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/68eefff2b9e7c1316499ace7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"68eefff2b9e7c1316499ace7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Favorite Song(move song)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\" : \"Old Songs\", \r\n        \"songs\" : \r\n        [\r\n            {\r\n                \"title\": \"(I Can't Get No) Satisfaction\",\r\n                \"artist\": \"The Rolling Stones\",\r\n                \"year\": 1965,\r\n                \"youTubeId\": \"MSSxnv1_J2g\"\r\n            },\r\n            {\r\n                \"title\": \"Respect\",\r\n                \"artist\": \"Aretha Franklin\",\r\n                \"year\": 1967,\r\n                \"youTubeId\": \"9iayJ8u4Qew\"\r\n            },\r\n            {\r\n                \"title\": \"Bohemian Rhapsody\",\r\n                \"artist\": \"Queen\",\r\n                \"year\": 1975,\r\n                \"youTubeId\": \"fJ9rUzIMcZQ\"\r\n            },\r\n            {\r\n                \"title\": \"Dancing Queen\",\r\n                \"artist\": \"ABBA\",\r\n                \"year\": 1976,\r\n                \"youTubeId\": \"xFrGuyw1V8s\"\r\n            },\r\n            {\r\n                \"title\": \"Stayin' Alive\",\r\n                \"artist\": \"Bee Gees\",\r\n                \"year\": 1977,\r\n                \"youTubeId\": \"fNFzfwLM72c\"\r\n            },\r\n            {\r\n                \"title\": \"Billie Jean\",\r\n                \"artist\": \"Michael Jackson\",\r\n                \"year\": 1983,\r\n                \"youTubeId\": \"Zi_XLOBDo_Y\"\r\n            },\r\n            {\r\n                \"title\": \"I Wanna Dance with Somebody\",\r\n                \"artist\": \"Whitney Houston\",\r\n                \"year\": 1987,\r\n                \"youTubeId\": \"eH3giaIzONA\"\r\n            },\r\n            {\r\n                \"title\": \"Like a Prayer\",\r\n                \"artist\": \"Madonna\",\r\n                \"year\": 1989,\r\n                \"youTubeId\": \"79fzeNUqQbQ\"\r\n            },\r\n            {\r\n                \"title\": \"Smells Like Teen Spirit\",\r\n                \"artist\": \"Nirvana\",\r\n                \"year\": 1991,\r\n                \"youTubeId\": \"hTWKbfoikeg\"\r\n            },\r\n            {\r\n                \"title\": \"Wannabe\",\r\n                \"artist\": \"Spice Girls\",\r\n                \"year\": 1996,\r\n                \"youTubeId\": \"gJLIiF15wjQ\"\r\n            },\r\n            {\r\n                \"title\": \"I Want It That Way\",\r\n                \"artist\": \"Backstreet Boys\",\r\n                \"year\": 1999,\r\n                \"youTubeId\": \"4fndeDfaWCg\"\r\n            },\r\n            {\r\n                \"title\": \"Hey Ya!\",\r\n                \"artist\": \"OutKast\",\r\n                \"year\": 2003,\r\n                \"youTubeId\": \"PWgvGjAhvIw\"\r\n            },\r\n            {\r\n                \"title\": \"Mr. Brightside\",\r\n                \"artist\": \"The Killers\",\r\n                \"year\": 2004,\r\n                \"youTubeId\": \"gGdGFtwCNBE\"\r\n            },\r\n            {\r\n                \"title\": \"Umbrella\",\r\n                \"artist\": \"Rihanna feat. Jay-Z\",\r\n                \"year\": 2007,\r\n                \"youTubeId\": \"CvBfHwUxHIk\"\r\n            },\r\n            {\r\n                \"title\": \"Rolling in the Deep\",\r\n                \"artist\": \"Adele\",\r\n                \"year\": 2010,\r\n                \"youTubeId\": \"rYEDA3JcQqw\"\r\n            },\r\n            {\r\n                \"title\": \"Uptown Funk\",\r\n                \"artist\": \"Mark Ronson feat. Bruno Mars\",\r\n                \"year\": 2014,\r\n                \"youTubeId\": \"OPf0YbXqDm0\"\r\n            },\r\n            {\r\n                \"title\": \"Despacito (Remix)\",\r\n                \"artist\": \"Luis Fonsi & Daddy Yankee feat. Justin Bieber\",\r\n                \"year\": 2017,\r\n                \"youTubeId\": \"wJvppSr8BN4\"\r\n            },\r\n            {\r\n                \"title\": \"Blinding Lights\",\r\n                \"artist\": \"The Weeknd\",\r\n                \"year\": 2020,\r\n                \"youTubeId\": \"4NRXx6U8ABQ\"\r\n            },\r\n            {\r\n                \"title\": \"drivers license\",\r\n                \"artist\": \"Olivia Rodrigo\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"ZmDBbnmKpqQ\"\r\n            },\r\n            {\r\n                \"title\": \"Hey Jude\",\r\n                \"artist\": \"The Beatles\",\r\n                \"year\": 1968,\r\n                \"youTubeId\": \"A_MjCqQoLLA\"\r\n            }\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/68eefff2b9e7c1316499ace7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"68eefff2b9e7c1316499ace7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Favorite Song(edit song)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\" : \"Old Songs \", \r\n        \"songs\" : \r\n        [\r\n            {\r\n                \"title\": \"Hey Jude Changed\",\r\n                \"artist\": \"The Beatles Changed \",\r\n                \"year\": 1900,\r\n                \"youTubeId\": \"A_MjCqQoLLA\"\r\n            },\r\n            {\r\n                \"title\": \"(I Can't Get No) Satisfaction\",\r\n                \"artist\": \"The Rolling Stones\",\r\n                \"year\": 1965,\r\n                \"youTubeId\": \"MSSxnv1_J2g\"\r\n            },\r\n            {\r\n                \"title\": \"Respect\",\r\n                \"artist\": \"Aretha Franklin\",\r\n                \"year\": 1967,\r\n                \"youTubeId\": \"9iayJ8u4Qew\"\r\n            },\r\n            {\r\n                \"title\": \"Bohemian Rhapsody\",\r\n                \"artist\": \"Queen\",\r\n                \"year\": 1975,\r\n                \"youTubeId\": \"fJ9rUzIMcZQ\"\r\n            },\r\n            {\r\n                \"title\": \"Dancing Queen\",\r\n                \"artist\": \"ABBA\",\r\n                \"year\": 1976,\r\n                \"youTubeId\": \"xFrGuyw1V8s\"\r\n            },\r\n            {\r\n                \"title\": \"Stayin' Alive\",\r\n                \"artist\": \"Bee Gees\",\r\n                \"year\": 1977,\r\n                \"youTubeId\": \"fNFzfwLM72c\"\r\n            },\r\n            {\r\n                \"title\": \"Billie Jean\",\r\n                \"artist\": \"Michael Jackson\",\r\n                \"year\": 1983,\r\n                \"youTubeId\": \"Zi_XLOBDo_Y\"\r\n            },\r\n            {\r\n                \"title\": \"I Wanna Dance with Somebody\",\r\n                \"artist\": \"Whitney Houston\",\r\n                \"year\": 1987,\r\n                \"youTubeId\": \"eH3giaIzONA\"\r\n            },\r\n            {\r\n                \"title\": \"Like a Prayer\",\r\n                \"artist\": \"Madonna\",\r\n                \"year\": 1989,\r\n                \"youTubeId\": \"79fzeNUqQbQ\"\r\n            },\r\n            {\r\n                \"title\": \"Smells Like Teen Spirit\",\r\n                \"artist\": \"Nirvana\",\r\n                \"year\": 1991,\r\n                \"youTubeId\": \"hTWKbfoikeg\"\r\n            },\r\n            {\r\n                \"title\": \"Wannabe\",\r\n                \"artist\": \"Spice Girls\",\r\n                \"year\": 1996,\r\n                \"youTubeId\": \"gJLIiF15wjQ\"\r\n            },\r\n            {\r\n                \"title\": \"I Want It That Way\",\r\n                \"artist\": \"Backstreet Boys\",\r\n                \"year\": 1999,\r\n                \"youTubeId\": \"4fndeDfaWCg\"\r\n            },\r\n            {\r\n                \"title\": \"Hey Ya!\",\r\n                \"artist\": \"OutKast\",\r\n                \"year\": 2003,\r\n                \"youTubeId\": \"PWgvGjAhvIw\"\r\n            },\r\n            {\r\n                \"title\": \"Mr. Brightside\",\r\n                \"artist\": \"The Killers\",\r\n                \"year\": 2004,\r\n                \"youTubeId\": \"gGdGFtwCNBE\"\r\n            },\r\n            {\r\n                \"title\": \"Umbrella\",\r\n                \"artist\": \"Rihanna feat. Jay-Z\",\r\n                \"year\": 2007,\r\n                \"youTubeId\": \"CvBfHwUxHIk\"\r\n            },\r\n            {\r\n                \"title\": \"Rolling in the Deep\",\r\n                \"artist\": \"Adele\",\r\n                \"year\": 2010,\r\n                \"youTubeId\": \"rYEDA3JcQqw\"\r\n            },\r\n            {\r\n                \"title\": \"Uptown Funk\",\r\n                \"artist\": \"Mark Ronson feat. Bruno Mars\",\r\n                \"year\": 2014,\r\n                \"youTubeId\": \"OPf0YbXqDm0\"\r\n            },\r\n            {\r\n                \"title\": \"Despacito (Remix)\",\r\n                \"artist\": \"Luis Fonsi & Daddy Yankee feat. Justin Bieber\",\r\n                \"year\": 2017,\r\n                \"youTubeId\": \"wJvppSr8BN4\"\r\n            },\r\n            {\r\n                \"title\": \"Blinding Lights\",\r\n                \"artist\": \"The Weeknd\",\r\n                \"year\": 2020,\r\n                \"youTubeId\": \"4NRXx6U8ABQ\"\r\n            },\r\n            {\r\n                \"title\": \"drivers license\",\r\n                \"artist\": \"Olivia Rodrigo\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"ZmDBbnmKpqQ\"\r\n            }\r\n\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/68eefff2b9e7c1316499ace7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"68eefff2b9e7c1316499ace7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Favorite Song(remove song)",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\" : \"Old Songs\", \r\n        \"songs\" : \r\n        [\r\n            {\r\n                \"title\": \"(I Can't Get No) Satisfaction\",\r\n                \"artist\": \"The Rolling Stones\",\r\n                \"year\": 1965,\r\n                \"youTubeId\": \"MSSxnv1_J2g\"\r\n            },\r\n            {\r\n                \"title\": \"Respect\",\r\n                \"artist\": \"Aretha Franklin\",\r\n                \"year\": 1967,\r\n                \"youTubeId\": \"9iayJ8u4Qew\"\r\n            },\r\n            {\r\n                \"title\": \"Bohemian Rhapsody\",\r\n                \"artist\": \"Queen\",\r\n                \"year\": 1975,\r\n                \"youTubeId\": \"fJ9rUzIMcZQ\"\r\n            },\r\n            {\r\n                \"title\": \"Dancing Queen\",\r\n                \"artist\": \"ABBA\",\r\n                \"year\": 1976,\r\n                \"youTubeId\": \"xFrGuyw1V8s\"\r\n            },\r\n            {\r\n                \"title\": \"Stayin' Alive\",\r\n                \"artist\": \"Bee Gees\",\r\n                \"year\": 1977,\r\n                \"youTubeId\": \"fNFzfwLM72c\"\r\n            },\r\n            {\r\n                \"title\": \"Billie Jean\",\r\n                \"artist\": \"Michael Jackson\",\r\n                \"year\": 1983,\r\n                \"youTubeId\": \"Zi_XLOBDo_Y\"\r\n            },\r\n            {\r\n                \"title\": \"I Wanna Dance with Somebody\",\r\n                \"artist\": \"Whitney Houston\",\r\n                \"year\": 1987,\r\n                \"youTubeId\": \"eH3giaIzONA\"\r\n            },\r\n            {\r\n                \"title\": \"Like a Prayer\",\r\n                \"artist\": \"Madonna\",\r\n                \"year\": 1989,\r\n                \"youTubeId\": \"79fzeNUqQbQ\"\r\n            },\r\n            {\r\n                \"title\": \"Smells Like Teen Spirit\",\r\n                \"artist\": \"Nirvana\",\r\n                \"year\": 1991,\r\n                \"youTubeId\": \"hTWKbfoikeg\"\r\n            },\r\n            {\r\n                \"title\": \"Wannabe\",\r\n                \"artist\": \"Spice Girls\",\r\n                \"year\": 1996,\r\n                \"youTubeId\": \"gJLIiF15wjQ\"\r\n            },\r\n            {\r\n                \"title\": \"I Want It That Way\",\r\n                \"artist\": \"Backstreet Boys\",\r\n                \"year\": 1999,\r\n                \"youTubeId\": \"4fndeDfaWCg\"\r\n            },\r\n            {\r\n                \"title\": \"Hey Ya!\",\r\n                \"artist\": \"OutKast\",\r\n                \"year\": 2003,\r\n                \"youTubeId\": \"PWgvGjAhvIw\"\r\n            },\r\n            {\r\n                \"title\": \"Mr. Brightside\",\r\n                \"artist\": \"The Killers\",\r\n                \"year\": 2004,\r\n                \"youTubeId\": \"gGdGFtwCNBE\"\r\n            },\r\n            {\r\n                \"title\": \"Umbrella\",\r\n                \"artist\": \"Rihanna feat. Jay-Z\",\r\n                \"year\": 2007,\r\n                \"youTubeId\": \"CvBfHwUxHIk\"\r\n            },\r\n            {\r\n                \"title\": \"Rolling in the Deep\",\r\n                \"artist\": \"Adele\",\r\n                \"year\": 2010,\r\n                \"youTubeId\": \"rYEDA3JcQqw\"\r\n            },\r\n            {\r\n                \"title\": \"Uptown Funk\",\r\n                \"artist\": \"Mark Ronson feat. Bruno Mars\",\r\n                \"year\": 2014,\r\n                \"youTubeId\": \"OPf0YbXqDm0\"\r\n            },\r\n            {\r\n                \"title\": \"Despacito (Remix)\",\r\n                \"artist\": \"Luis Fonsi & Daddy Yankee feat. Justin Bieber\",\r\n                \"year\": 2017,\r\n                \"youTubeId\": \"wJvppSr8BN4\"\r\n            },\r\n            {\r\n                \"title\": \"Blinding Lights\",\r\n                \"artist\": \"The Weeknd\",\r\n                \"year\": 2020,\r\n                \"youTubeId\": \"4NRXx6U8ABQ\"\r\n            },\r\n            {\r\n                \"title\": \"drivers license\",\r\n                \"artist\": \"Olivia Rodrigo\",\r\n                \"year\": 2021,\r\n                \"youTubeId\": \"ZmDBbnmKpqQ\"\r\n            }\r\n\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/68eefff2b9e7c1316499ace7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"68eefff2b9e7c1316499ace7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Delete Playlist",
+			"item": [
+				{
+					"name": "Delete Playlist",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/633af66f9dd4614fc06dc9e9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"633af66f9dd4614fc06dc9e9"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Read Playlist Pairs",
+			"item": [
+				{
+					"name": "Read Playlist Pairs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/playlistpairs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlistpairs"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Query Playlists",
+			"item": [
+				{
+					"name": "Query - Playlists Starting With 'Old'",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/playlist/playlistsstartwith/Old",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"playlist",
+								"playlistsstartwith",
+								"Old"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query - Songs By Criteria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/songs?artist=Beatles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"songs"
+							],
+							"query": [
+								{
+									"key": "artist",
+									"value": "Beatles"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
