@@ -206,7 +206,36 @@ export const useGlobalStore = () => {
 
     // THIS FUNCTION PROCESSES CHANGING A LIST NAME
     store.changeListName = function (id, newName) {
- 
+
+        async function asyncChangeListName(id, newName) {
+            
+            console.log("changeListName called with:", id, newName);
+            
+            const fResponse = await requestSender.readPlaylistById(id);
+            if(fResponse.data.success)
+            {
+                let playlist = fResponse.data.playlist;
+                playlist.name = newName;
+                const getResponse = await requestSender.updatePlaylistById(id, playlist);
+                
+                if(getResponse.data.success)
+                {
+                    const pResponse = await requestSender.readPlaylistPairs();
+                    if(pResponse.data.success)
+                    {
+                        let pairsArray = pResponse.data.idNamePairs;
+                        storeReducer({
+                            type: GlobalStoreActionType.CHANGE_LIST_NAME,
+                            payload: {
+                                idNamePairs: pairsArray,
+                                playlist: playlist 
+                            }
+                        });
+                    }
+                }
+            }
+        }  
+        asyncChangeListName(id, newName);
     }
 
     // THIS FUNCTION PROCESSES CLOSING THE CURRENTLY LOADED LIST
@@ -279,7 +308,26 @@ export const useGlobalStore = () => {
         getListToDelete(id);
     }
     store.deleteMarkedList = function() {
-        store.hideModals();
+        async function asyncDeleteMarkedList(){
+            let id = store.listIdMarkedForDeletion;
+
+            const response = await requestSender.deletePlaylistById(id);
+            if(response.data.success)
+            {
+                const pResponse = await requestSender.readPlaylistPairs();
+                if(pResponse.data.success)
+                {
+                    let pairsArray = pResponse.data.idNamePairs;
+                    console.log("About to update store with:", pairsArray); 
+                    storeReducer({
+                        type: GlobalStoreActionType.LOAD_ID_NAME_PAIRS,
+                        payload: pairsArray
+                    });
+                }
+            }
+            store.hideModals();
+        }
+        asyncDeleteMarkedList();
     }
     // THIS FUNCTION SHOWS THE MODAL FOR PROMPTING THE USER
     // TO SEE IF THEY REALLY WANT TO DELETE THE LIST
