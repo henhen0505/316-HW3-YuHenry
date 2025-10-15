@@ -377,24 +377,86 @@ export const useGlobalStore = () => {
     // USING THE PROVIDED DATA AND PUTS THIS SONG AT INDEX
     store.createSong = function(index, song) {
 
+        let list = store.currentList;
+
+        list.songs.splice(index, 0, song);
+
+        async function asyncCreateSong(id, playlist)
+        {
+            const response = await requestSender.updatePlaylistById(id, playlist);
+            if(response.data.success)
+            {
+                storeReducer({
+                    type: GlobalStoreActionType.SET_CURRENT_LIST,
+                    payload: list
+                });
+            }
+        }
+        asyncCreateSong(list._id, list);
     }
     // THIS FUNCTION MOVES A SONG IN THE CURRENT LIST FROM
     // start TO end AND ADJUSTS ALL OTHER ITEMS ACCORDINGLY
     store.moveSong = function(start, end) {
+        let list = store.currentList;
 
+        let song = list.songs.splice(start, 1)[0];
+
+        list.songs.splice(end, 0, song);
+        async function asyncMoveSong(id, playlist) {
+            const response = await requestSender.updatePlaylistById(id, playlist);
+            if(response.data.success)
+            {
+                storeReducer({
+                    type: GlobalStoreActionType.SET_CURRENT_LIST,
+                    payload: list
+                });
+            }
+        }
+        asyncMoveSong(list._id, list);
     }
     // THIS FUNCTION REMOVES THE SONG AT THE index LOCATION
     // FROM THE CURRENT LIST
     store.removeSong = function(index) {
 
+        let list = store.currentList;
+
+        list.songs.splice(index, 1);
+
+        async function asyncRemoveSong(id, playlist) {
+            
+            const response = await requestSender.updatePlaylistById(id, playlist);
+            if(response.data.success)
+            {
+                 storeReducer({
+                    type: GlobalStoreActionType.SET_CURRENT_LIST,
+                    payload: list
+                });
+            }
+        }
+        asyncRemoveSong(list._id, list);
     }
     // THIS FUNCTION UPDATES THE TEXT IN THE ITEM AT index TO text
     store.updateSong = function(index, songData) {
+        let list = store.currentList;
 
+        list.songs[index] = songData;
+
+        async function asyncUpdateSong(id, playlist) {
+            const response = await requestSender.updatePlaylistById(id, playlist);
+            if(response.data.success)
+            {
+                storeReducer({
+                    type: GlobalStoreActionType.SET_CURRENT_LIST,
+                    payload: list
+                });
+            }
+        }
+        asyncUpdateSong(list._id, list);
     }
     // THIS ADDS A BRAND NEW SONG
     store.addNewSong = () => {
-
+        let i = store.currentList.songs.length;
+        store.addCreateSongTransaction(i,"Untitled", "Unknown", "");
     }
     
     // THIS FUNCDTION ADDS A CreateSong_Transaction TO THE TRANSACTION STACK
@@ -425,7 +487,7 @@ export const useGlobalStore = () => {
             artist: song.artist,
             youTubeId: song.youTubeId
         };
-        let transaction = new UpdateSong_Transaction(this, index, oldSongData, newSongData);        
+        let transaction = new UpdateSong_Transaction(store, index, oldSongData, newSongData);        
         tps.processTransaction(transaction);
     }
     store.undo = function () {

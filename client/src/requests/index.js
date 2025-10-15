@@ -24,7 +24,7 @@ const api = axios.create({
 // CUSTOM FILTERS FOR QUERIES
 export const createPlaylist = (payload) => api.post(`/playlist`, payload)
 export const readPlaylistById = (id) => api.get(`/playlist/${id}`)
-export const readPlaylistPairs = () => api.get('playlistpairs')
+export const readPlaylistPairs = () => api.get('/playlistpairs')
 export const updatePlaylistById = (id, payload) => api.put(`/playlist/${id}`, payload)
 export const deletePlaylistById = (id) => api.delete(`/playlist/${id}`)
 

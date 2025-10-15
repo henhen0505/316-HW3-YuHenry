@@ -39,7 +39,7 @@ const PlaylistCards = () => {
                     type="button"
                     id="add-list-button"
                     onClick={handleCreateNewList}
-                    className="playlister-button"
+                    className="edit-toolbar-button"
                     value="+" />
                 Your Lists
             </div>
