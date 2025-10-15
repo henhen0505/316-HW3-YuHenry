@@ -323,9 +323,10 @@ export const useGlobalStore = () => {
                         type: GlobalStoreActionType.LOAD_ID_NAME_PAIRS,
                         payload: pairsArray
                     });
+                    store.hideModals();
                 }
             }
-            store.hideModals();
+            
         }
         asyncDeleteMarkedList();
     }
